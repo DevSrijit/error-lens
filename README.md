@@ -4,7 +4,7 @@ An advanced error logging package that provides AI-powered insights into your ap
 
 ## Features
 
-- 🤖 AI-powered error analysis using GPT-4
+- 🤖 AI-powered error analysis using GPT-4 or Gemini-Pro
 - 📧 Email notifications for errors
 - 🎨 Beautiful console formatting
 - 🔍 Detailed error insights and fix suggestions
