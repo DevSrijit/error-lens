@@ -21,7 +21,7 @@ npm install error-lens
 1. Initialize the configuration:
 
 ```javascript
-import { initializeConfig } from 'ai-error-lens';
+import { initializeConfig } from 'error-lens';
 initializeConfig({
 openaiApiKey: 'your-openai-api-key',
 googleApiKey: 'your-google-api-key', //either openai or google api is required.
@@ -35,7 +35,7 @@ aiProvider: 'google' // or openai
 2. Use the error logger:
 
 ```javascript
-import { AIErrorLogger } from 'ai-error-lens';
+import { AIErrorLogger } from 'error-lens';
 try {
 // Your code here
 } catch (error) {
@@ -50,7 +50,7 @@ severity: 'error'
 3. Use the error boundary wrapper:
 
 ```javascript
-import { withErrorLogging } from 'ai-error-lens';
+import { withErrorLogging } from 'error-lens';
 const riskyFunction = () => {
 // Your code that might throw an error
 };
