@@ -88,7 +88,17 @@ class AIErrorLogger {
       'ReferenceError': 'Reference Error',
       'SyntaxError': 'Syntax Error',
       'RangeError': 'Range Error',
+      'URIError': 'URI Error',
+      'EvalError': 'Eval Error',
       'NetworkError': 'Network Error',
+      'AggregateError': 'Aggregate Error',
+      'InternalError': 'Internal Error',
+      'WebAssemblyError': 'WebAssembly Error',
+      'AbortError': 'Abort Error',
+      'TimeoutError': 'Timeout Error',
+      'SecurityError': 'Security Error',
+      'ValidationError': 'Validation Error',
+      'DatabaseError': 'Database Error',
       'Default': 'Unknown Error'
     };
 

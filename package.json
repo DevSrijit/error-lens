@@ -1,6 +1,6 @@
 {
   "name": "error-lens",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An advanced error logger with AI-powered insights and email notifications",
   "type": "module",
   "main": "src/index.js",
