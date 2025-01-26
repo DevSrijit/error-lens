@@ -1,0 +1,30 @@
+{
+  "name": "error-lens",
+  "version": "1.0.0",
+  "description": "An advanced error logger with AI-powered insights and email notifications",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "error-logging",
+    "ai",
+    "openai",
+    "error-handling",
+    "debugging"
+  ],
+  "author": "Srijit Ghosh",
+  "license": "MIT",
+  "github": "https://github.com/devsrijit/error-lens",
+  "dependencies": {
+    "openai": "^4.28.0",
+    "resend": "^3.1.0",
+    "chalk": "^4.1.2",
+    "@google/generative-ai": "^0.1.3",
+    "boxen": "^7.1.1",
+    "chalk-animation": "^2.0.3",
+    "gradient-string": "^2.0.2",
+    "figlet": "^1.7.0"
+  }
+}
