@@ -12,7 +12,15 @@
     "ai",
     "openai",
     "error-handling",
-    "debugging"
+    "debugging",
+    "error-analysis",
+    "email-notifications",
+    "error-insights",
+    "error-tracking",
+    "error-monitoring",
+    "error-reporting",
+    "error-lens",
+    "error-analysis"
   ],
   "author": "Srijit Ghosh",
   "license": "MIT",

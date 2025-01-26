@@ -13,7 +13,7 @@ An advanced error logging package that provides AI-powered insights into your ap
 ## Installation
 
 ```bash
-npm install ai-error-lens
+npm install error-lens
 ```
 
 ## Usage
@@ -24,9 +24,11 @@ npm install ai-error-lens
 import { initializeConfig } from 'ai-error-lens';
 initializeConfig({
 openaiApiKey: 'your-openai-api-key',
+googleApiKey: 'your-google-api-key', //either openai or google api is required.
 resendApiKey: 'your-resend-api-key',
 emailFrom: 'errors@yourdomain.com',
-emailTo: 'developer@yourdomain.com'
+emailTo: 'developer@yourdomain.com',
+aiProvider: 'google' // or openai
 });
 ```
 
@@ -63,4 +65,4 @@ await safeFunctionWithLogging();
 
 ## License
 
-MIT
+MIT !
